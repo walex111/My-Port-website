@@ -749,7 +749,7 @@ body .copyright .up {
   width: 7rem;
   height: 7rem;
   background-color: #043653;
-  top: 82rem;
+  bottom: 4rem;
   right: 5rem;
   border-radius: 100%;
   display: -webkit-box;
@@ -757,6 +757,12 @@ body .copyright .up {
   display: flex;
   -webkit-animation: pulse 2s infinite;
           animation: pulse 2s infinite;
+}
+
+@media screen and (max-width: 360px) {
+  body .copyright .up {
+    bottom: 8rem;
+  }
 }
 
 @media screen and (min-width: 1366px) {

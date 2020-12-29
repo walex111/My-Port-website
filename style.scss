@@ -606,11 +606,15 @@ body {
       width: 7rem;
       height: 7rem;
       background-color: $linear-gradient-1;
-      top: 82rem;
+      bottom: 4rem;
       right: 5rem;
       border-radius: 100%;
       display: flex;
       animation: pulse 2s infinite;
+
+      @media screen and (max-width: $phone) {
+        bottom: 8rem;
+      }
 
       @media screen and (min-width: $desktop) {
         width: 8rem;
