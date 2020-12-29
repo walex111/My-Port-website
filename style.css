@@ -16,6 +16,8 @@ html {
 a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.658);
+  -webkit-transition: color 650ms ease;
+  transition: color 650ms ease;
 }
 
 p {
@@ -471,10 +473,6 @@ body .about .about-details .social-media .nav-list i {
   padding: 3rem;
 }
 
-body .about .about-details .social-media .nav-list .fa-address-card:hover {
-  color: #043653;
-}
-
 body .about .about-details .social-media .nav-list .fa-linkedin:hover {
   color: #0e76a8;
 }
@@ -483,8 +481,8 @@ body .about .about-details .social-media .nav-list .fa-github-square:hover {
   color: #333;
 }
 
-body .about .about-details .social-media .nav-list .fa-dribbble-square:hover {
-  color: #ea4c89;
+body .about .about-details .social-media .nav-list .fa-behance-square:hover {
+  color: #4d6ef5;
 }
 
 body .my-skills {
@@ -597,8 +595,8 @@ body .portfolio .portfolio-item .des-dev {
   display: grid;
   width: 100%;
   padding: 2rem;
-  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 4rem;
   text-align: center;
   -webkit-box-pack: center;
@@ -649,6 +647,19 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
 
 body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links {
   margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links .cta {
@@ -657,6 +668,7 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
   -webkit-transition: color 650ms;
   transition: color 650ms;
   border-bottom: 0.5px solid #ffffff;
+  margin-bottom: 1rem;
 }
 
 body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links .cta.cta-left {

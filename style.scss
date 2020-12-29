@@ -30,6 +30,7 @@ html {
 a {
   text-decoration: none;
   color: $text-color;
+  transition: color 650ms ease;
 }
 
 p {
@@ -383,10 +384,6 @@ body {
             padding: 3rem;
           }
 
-          .fa-address-card:hover {
-            color: $linear-gradient-1;
-          }
-
           .fa-linkedin:hover {
             color: #0e76a8;
           }
@@ -395,8 +392,8 @@ body {
             color: #333;
           }
 
-          .fa-dribbble-square:hover {
-            color: #ea4c89;
+          .fa-behance-square:hover {
+            color: #4d6ef5;
           }
         }
       }
@@ -480,7 +477,7 @@ body {
         display: grid;
         width: 100%;
         padding: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 4rem;
         text-align: center;
         justify-content: center;
@@ -518,12 +515,17 @@ body {
 
             .links {
               margin-top: 2rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
 
               .cta {
                 font-size: 1.9rem;
                 text-transform: uppercase;
                 transition: color 650ms;
                 border-bottom: 0.5px solid $linear-gradient-2;
+                margin-bottom: 1rem;
 
                 &.cta-left {
                   margin-right: 2rem;
