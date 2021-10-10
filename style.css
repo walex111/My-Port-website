@@ -571,26 +571,7 @@ body .portfolio .section-heading {
   margin-bottom: 5rem;
 }
 
-body .portfolio .portfolio-item {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 5rem;
-}
-
-body .portfolio .portfolio-item .des-dev {
+body .portfolio .portfolio-items {
   display: -ms-grid;
   display: grid;
   width: 100%;
@@ -604,11 +585,11 @@ body .portfolio .portfolio-item .des-dev {
           justify-content: center;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement {
+body .portfolio .portfolio-items .web-developement {
   margin-bottom: 2rem;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-img {
+body .portfolio .portfolio-items .web-developement .portfolio-img {
   display: block;
   width: 100%;
   height: 50rem;
@@ -616,14 +597,14 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-img {
      object-fit: contain;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-img img {
+body .portfolio .portfolio-items .web-developement .portfolio-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description {
+body .portfolio .portfolio-items .web-developement .portfolio-description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -640,7 +621,7 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
           align-items: center;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description h6 {
+body .portfolio .portfolio-items .web-developement .portfolio-description h6 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -649,11 +630,11 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
   color: rgba(255, 255, 255, 0.658);
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description p {
+body .portfolio .portfolio-items .web-developement .portfolio-description p {
   width: 80%;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links {
+body .portfolio .portfolio-items .web-developement .portfolio-description .links {
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -670,7 +651,7 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
           align-items: center;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links .cta {
+body .portfolio .portfolio-items .web-developement .portfolio-description .links .cta {
   font-size: 1.9rem;
   text-transform: uppercase;
   -webkit-transition: color 650ms;
@@ -679,11 +660,11 @@ body .portfolio .portfolio-item .des-dev .web-developement .portfolio-descriptio
   margin-bottom: 1rem;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links .cta.cta-left {
+body .portfolio .portfolio-items .web-developement .portfolio-description .links .cta.cta-left {
   margin-right: 2rem;
 }
 
-body .portfolio .portfolio-item .des-dev .web-developement .portfolio-description .links .cta:hover {
+body .portfolio .portfolio-items .web-developement .portfolio-description .links .cta:hover {
   color: #174661;
 }
 
